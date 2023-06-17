@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/809/850/443/taj-mahal-4k-background-for-computer-wallpaper-preview.jpg);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:link{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+}
+.login{
+    padding:2%;
+    justify-content: flex-end;
+  }
+a{
+    color:black;
+    padding:90px;
+}

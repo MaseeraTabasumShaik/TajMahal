@@ -1,0 +1,128 @@
+
+
+.login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+.logo-text {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.tabasum {
+    text-align: right;
+    padding-right: 0px;
+}
+.tabasum a {
+    margin-left: 10px;
+}
+
+.header1{
+    margin: auto;
+    padding:2%;
+    padding: 25px 25px 25px 25px;
+    background-image: url(https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    transition: transform 1s infinite;
+}
+.header1{
+    animation:change 5s ease infinite;
+}
+@keyframes change{
+    0%{
+        background-image: url(https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    25%{ background-image: url(https://c4.wallpaperflare.com/wallpaper/809/850/443/taj-mahal-4k-background-for-computer-wallpaper-preview.jpg);
+ 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{ 
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/304/799/788/taj-mahal-4k-image-hd-wallpaper-preview.jpg);
+ 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(https://img.freepik.com/premium-photo/taj-mahal-blue-sky-beautiful-view-india_400112-325.jpg?w=900);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+.images3{
+    display:flex;
+    justify-content:space-evenly;
+    padding:0.75%;
+}
+.header div a:hover{
+    color: black;
+    transition: all 1s ease 0s;
+}
+.mas{
+    padding: 5px;
+    width:500px;
+    border:2px solid black;
+     display: flex;
+    justify-content: space-evenly;
+}
+a{
+     color:black;
+     padding:40px;
+ }
+ a:link{
+    text-decoration: none;
+    color:black;
+}
+.m {
+    animation: glow 2s infinite;
+   
+    }
+@keyframes glow {
+0% {
+text-shadow: 0 0 5px red;
+}
+25% {
+    text-shadow: 0 0 5px greenyellow;
+    }
+50% {
+text-shadow: 0 0 5px deeppink;
+}
+75% {
+    text-shadow: 0 0 5px blue;
+    }
+100% {
+text-shadow: 0 0 5px red;
+}
+}
+a{
+    color:black;
+}
+
+
+
+
+
+
+
+

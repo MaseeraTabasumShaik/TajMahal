@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+</head>
+<body background="https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54369.jpg?w=826" style="background-repeat: no-repeat;background-size: cover;">
+    <style>
+        .form{
+            height:600px;
+            width:500px;
+            border:2px solid brown;
+            margin:auto;
+            margin-top:3%;
+            padding:20px;
+            background-color:black;
+            color:white;
+            border-radius: 15%;
+            text-align:left;
+           
+        }
+        body{
+            background-image:url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGljc2FydCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+            background-size: cover;
+        }
+    </style>
+    <div class="form">
+    <form><center>
+        <h1>Sign Up</h1>
+    First name: <br> <input  type="text" id="first name" name="first name" placeholder="Enter your first name " required><br>
+        <br>Lastname: <br> <input  type="text"id="last name" name="last name" placeholder="Enter your last name "required>
+        <br><br>Email:<br><input type="email"id="first name" name="first name" placeholder="Enter your email"required><br>
+        <br>Date of Birth: <br><input  type="date"id="DOB" name="DOB" placeholder="Enter your first name "required>
+        <br><br>Gender:<br><select align="center" name="gender" id="gender" >
+        <option value="">select your gender</option>
+        <option value="female">female</option>
+        <option value="male">male</option>
+        <option value="other">Other</option>
+      </select> <br>
+      <br>Mobile Number:<br><input  type="text" id="phonenumber" name="phonenumber"placeholder="Enter your phone number"required> <br> 
+   <br>password: <br><input type="password" id="pwd" name="pwd" placeholder="Enter your password"  pattern="(?=.*[#,@,!,$,%,^,&,])(?=.*[a-z])(?=.*[A-Z]).{8,15}" title=" &#x2022  Password must contain minimum of 8 and maximum of 20 characters.
+   &#x2022 password should have atleast one Upper case letter.
+   &#x2022 password should have atleast one Lower case letter.
+   &#x2022 password should have atleast one  Number.
+   &#x2022 password should have atleast one special character." required><br><br>confirm Password :
+   <br><input  type="password" id="cpwd" name="first name"placeholder="Confirm your password" pattern="(?=.*[#,@,!,$,%,^,&,])(?=.*[a-z])(?=.*[A-Z]).{8,15}" required>
+    <br>
+   <br><div id="mas"></div>
+    <br>
+         <button type="submit" value="Sign Up" onclick="sign()">Sign Up</button>
+    </form>
+   
+</center>
+</div>
+<script src="./tab.js"></script>
+</body>
+</html>

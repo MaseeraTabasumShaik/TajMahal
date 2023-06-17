@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <style>
+    .form{
+        height:300px;
+        width:400px;
+        border:2px solid brown;
+        margin:auto;
+        margin-top:12%;
+        background-color:black;
+        color:white;
+        border-radius: 15%;
+    }
+    a{
+        text-decoration: none;
+        color:red;
+    }
+    body{
+        background-image: url(https://krcpictures.com/wp-content/uploads/2023/01/Picsart-editing-background-for-photo-editing-download.webp);
+        background-size: cover;
+    }
+    </style>
+    <div class="form">
+        <form  action="./web.html" >
+            <center style="margin-top:15%"><p><b ><i>USERNAME:<br><input type="email" placeholder="Enter your Email" id="username" name="username" required><br>
+                <br>
+            PASSWORD:<br><input  type="password" placeholder="Enter your password" id="password" name="password"  pattern="(?=.*[#,@,!,$,%,^,&,])(?=.*[a-z])(?=.*[A-Z]).{8,15}" required>
+            <br><br>
+            <br>
+                <input type="submit" value="Submit" onclick="check()">
+                <h3>Don't have an acoount yet?<a href="./sign.html">SIGNUP</a></h3>
+            </center>
+        </form>
+    </div>
+</body>
+</html>
